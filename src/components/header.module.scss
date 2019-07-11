@@ -1,0 +1,42 @@
+@import '../styles/variables';
+
+.main {
+
+    :global {
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+
+        background-color: $main-color;
+        display: flex;
+        justify-content: flex-end;
+        
+        ul {
+            display: flex;
+            // border: 1px solid red;
+            li {
+                text-decoration: none;
+                list-style-type: none;
+                padding: 0 15px;
+                margin: 0;
+            }
+        }
+
+        a {
+            color: white;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+    }
+}
+
+
