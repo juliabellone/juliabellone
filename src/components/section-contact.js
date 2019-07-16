@@ -4,7 +4,7 @@ import React from "react"
 import styles from './section-contact.module.scss'
 
 const SectionContact = () => (
-  <div className={styles.main}>
+  <div className={styles.main} id='contact'>
         <span>adios</span>
   </div>
 )

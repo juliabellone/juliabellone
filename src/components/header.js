@@ -7,42 +7,30 @@ const Header = () => (
   <header className={styles.main}
   >
         <ul>
+        <li>
+        <Link
+          to="#about"
+        >
           
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          <li>
           Who am I
-          </li>
         </Link>
+        </li>
                   
+        <li>
         <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+          to="#works"
         >
-          <li>
           Works
-          </li>
         </Link>
+        </li>
                   
+        <li>
         <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
+          to="#contact"
         >
-          <li>
           Contact me
-          </li>
         </Link>
+          </li>
         </ul>
 
   </header>

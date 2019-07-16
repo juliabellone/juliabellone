@@ -4,7 +4,7 @@ import React from "react"
 import styles from './section-works.module.scss'
 
 const SectionWorks = () => (
-  <div className={styles.main}>
+  <div className={styles.main} id='works'>
         <span>adios</span>
   </div>
 )
